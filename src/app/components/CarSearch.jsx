@@ -58,6 +58,7 @@ export default function CarSearch({ setYearSeach, setModel,setMaker  , setYear ,
     <div>
       {/* Search Form */}
       <form onSubmit={handleSubmit} className="search-form">
+        <p> <b> Search </b></p>
         <input
           type="text"
           name="car"
@@ -82,10 +83,12 @@ export default function CarSearch({ setYearSeach, setModel,setMaker  , setYear ,
           value={formValues.car_model_year}
           onChange={handleChange}
         />
+
       </form>
 
       {/* Sorting Form */}
       <form onSubmit={handleSortSubmit} className="sort-form">
+        <p> <strong>Sorting</strong></p>
         <select name="sortPrice"  disabled ={sortValues.sortYear} value={sortValues.sortPrice} onChange={handleSortChange}>
           <option value="">Sort by Price</option>
           <option value="asc">Price: Low to High</option>
