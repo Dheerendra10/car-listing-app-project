@@ -1,5 +1,12 @@
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
 #launch.json folder
 .vscode/
 #Cache folder
