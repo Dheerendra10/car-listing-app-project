@@ -15,7 +15,14 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
-
+.sort-tabs{
+  display: flex;
+  justify-content: center;
+}
+.tab-section{
+  gap:2rem;
+  display:flex;
+}
 body {
   color: var(--foreground);
   background: var(--background);
